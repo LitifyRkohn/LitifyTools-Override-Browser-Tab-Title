@@ -1,0 +1,22 @@
+<aura:component implements="lightning:actionOverride,force:appHostable,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction,lightning:isUrlAddressable" access="GLOBAL">
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    <aura:attribute name="recordId" type="String" />
+    <aura:attribute name="fieldName" type="String" />
+    <aura:attribute name="fields" type="String[]" default="[]" />
+    <aura:attribute name="record" type="Object"/>
+    <aura:attribute name="simpleRecord" type="Object"/>
+    <aura:attribute name="recordError" type="String"/> 
+    
+    <aura:if isTrue="{!v.fields.length}">
+    <force:recordData aura:id="recordLoader"
+      recordId="{!v.recordId}"
+      targetRecord="{!v.record}"
+      targetFields="{!v.simpleRecord}"
+      targetError="{!v.recordError}"
+      recordUpdated="{!c.doInit}"
+      fields="{!v.fields}"
+      />
+        </aura:if>
+
+</aura:component>

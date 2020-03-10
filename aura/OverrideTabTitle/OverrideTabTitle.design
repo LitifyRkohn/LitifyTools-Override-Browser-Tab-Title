@@ -1,0 +1,3 @@
+<design:component>
+    <design:attribute name="fieldName" label="Field API Name" description="Please specify API name of the field from where data should be pulled" />
+</design:component>
