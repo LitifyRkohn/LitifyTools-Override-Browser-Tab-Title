@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Merge_Tense_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>Defendant_Caption__c</fullName>
+        <externalId>false</externalId>
+        <label>Defendant Caption</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Defendant_Defendants__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Defendants__c &gt; 1, &quot;Defendants&quot;, &quot;Defendant&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Defendant/Defendants</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Defendant_Gender__c</fullName>
+        <externalId>false</externalId>
+        <label>Defendant Gender</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Multiple</fullName>
+                    <default>false</default>
+                    <label>Multiple</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Defendant_s_Defendants_Possession__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Defendants__c &gt; 1,&quot;Defendants&apos;&quot;,&quot;Defendant&apos;s&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Defendant&apos;s/Defendants&apos; Possession</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Defendants_Caption_Block__c</fullName>
+        <externalId>false</externalId>
+        <label>Defendants Caption Block</label>
+        <length>500</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Number_of_Defendants__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Number of Defendants</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Plaintiffs__c</fullName>
+        <defaultValue>1</defaultValue>
+        <externalId>false</externalId>
+        <label>Number of Plaintiffs</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Agree_Agrees__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;agree&quot;, &quot;agrees&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Agree/Agrees</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Authorize_Authorizes__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;authorize&quot;,&quot;authorizes&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Authorize/Authorizes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Certify_Certifies__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;certifies&quot;,&quot;certify&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff - Certify/Certifies</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Client_Clients_Caps__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;Clients&quot;, &quot;Client&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Client/Clients Caps</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Client_Clients__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;clients&quot;, &quot;client&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Client/Clients</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Clients_Client_s_Posession_Ca__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;Clients&apos;&quot;, &quot;Client&apos;s&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Clients&apos;/Client&apos;s Possession Cap</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Clients_Client_s_Posession__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;clients&apos;&quot;, &quot;client&apos;s&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Clients&apos;/Client&apos;s Posession</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Damage_Damages__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;damages&quot;, &quot;damage&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Damage/Damages</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Demand_Demands__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Number_of_Plaintiffs__c &gt; 1, &quot;demand&quot;, &quot;demands&quot;)</formula>
+        <label>Plaintiff Demand/Demands</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Deny_Denies__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;deny&quot;, &quot;denies&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Deny/Denies</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Do_Does__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;do&quot;,&quot;does&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Do/Does</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_File_Files__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;file&quot;,&quot;files&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff File/Files</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Gender__c</fullName>
+        <externalId>false</externalId>
+        <label>Plaintiff Gender</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Male</fullName>
+                    <default>false</default>
+                    <label>Male</label>
+                </value>
+                <value>
+                    <fullName>Female</fullName>
+                    <default>false</default>
+                    <label>Female</label>
+                </value>
+                <value>
+                    <fullName>Multiple</fullName>
+                    <default>false</default>
+                    <label>Multiple</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Has_Have__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;have&quot;, &quot;has&quot;)</formula>
+        <label>Plaintiff Has/Have</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_He_She_They__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;they&quot;,
+IF(ISPICKVAL(Plaintiff_Gender__c, &quot;Male&quot;),&quot;he&quot;,
+IF(ISPICKVAL(Plaintiff_Gender__c,&quot;Female&quot;),&quot;she&quot;,
+NULL)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff  He/She/They</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Him_Her_Them__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;them&quot;,
+IF(ISPICKVAL(Plaintiff_Gender__c, &quot;Male&quot;),&quot;him&quot;,
+IF(ISPICKVAL(Plaintiff_Gender__c, &quot;Female&quot;),&quot;her&quot;,
+NULL)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Him/Her/Them</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Him_Her_Us__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(
+(Number_of_Plaintiffs__c &gt; 1), &quot;us&quot;,
+IF(
+ISPICKVAL(Plaintiff_Gender__c,&quot;Male&quot;),&quot;him&quot;,
+IF(
+ISPICKVAL(Plaintiff_Gender__c,&quot;Female&quot;),&quot;her&quot;,
+NULL)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff - Him/Her/Us</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_His_Her_Our__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(
+(Number_of_Plaintiffs__c &gt; 1), &quot;our&quot;,
+IF(
+ISPICKVAL(Plaintiff_Gender__c,&quot;Male&quot;),&quot;his&quot;,
+IF(
+ISPICKVAL(Plaintiff_Gender__c,&quot;Female&quot;),&quot;her&quot;,
+NULL)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff - His/Her/Our</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_His_Her_Their_CAPS__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(
+				(Number_of_Plaintiffs__c &gt; 1), &quot;their&quot;,
+					IF(
+		    ISPICKVAL(Plaintiff_Gender__c,&quot;Male&quot;),&quot;his&quot;,
+				    IF(
+								 ISPICKVAL(Plaintiff_Gender__c,&quot;Female&quot;),&quot;her&quot;,
+												NULL)))</formula>
+        <label>Plaintiff His Her Their CAPS</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Homeowner_Homeowners__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;homeowners&quot;, &quot;homeowner&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Homeowner/Homeowners</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Incorporate_Incorporates__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;incorporate&quot;,&quot;incorporates&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Incorporate/Incorporates</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Individual_Individuals__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;individuals&quot;, &quot;individual&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Individual/Individuals</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Insured_Insureds__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;insureds&quot;, &quot;insured&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Insured/Insureds</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Insured_s_Insureds_Posession__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;insureds&apos;&quot;, &quot;insured&apos;s&quot;)</formula>
+        <label>Plaintiff Insured&apos;s/Insureds&apos; Posession</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Is_An_Are__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;are&quot;, &quot;is&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff - Is/An/Are</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Is_Are__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;are&quot;,&quot;is&quot;)</formula>
+        <label>Plaintiff Is/Are</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Make_Makes__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;makes&quot;, &quot;make&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Make/Makes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Me_Us__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;us&quot;, &quot;me&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Me/Us</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_My_Our__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;our&quot;, &quot;my&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff My/Our</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Object_Objects__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;object&quot;, &quot;objects&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Object/Objects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Own_Owns__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;own&quot;, &quot;owns&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Own/Owns</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Owner_Owners__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;owners&quot;,&quot;owner&quot;)</formula>
+        <label>Plaintiff Owner/Owners</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Permit_Permits__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;permit&quot;,&quot;permits&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Permit/Permits</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Plaintiffs__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Number_of_Plaintiffs__c &gt; 1, &quot;Plaintiffs&quot;, &quot;Plaintiff&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff/Plaintiffs</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Plan_Plans__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;plan&quot;, &quot;plans&quot;)</formula>
+        <label>Plaintiff Plan/Plans</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Reallege__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;reallege&quot; ,&quot;realleges&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Reallege</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Refer_Refers__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;refer&quot;, &quot;refers&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Refer/Refers</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Request_Requests__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;requests&quot;, &quot;request&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Request/Requests</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Reserve_Reserves__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;reserve&quot;,&quot;reserves&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Reserve/Reserves</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Submit_Submits__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;submit&quot;, &quot;submits&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Submit/Submits</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Understand_Understands__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1, &quot;understand&quot;, &quot;understands&quot;)</formula>
+        <label>Plaintiff Understand/Understands</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_Was_Were__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;were&quot;,&quot;was&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff Was/Were</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_We_I_Cap__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;We&quot;,&quot;I&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff We/I Cap</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_We_I__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;we&quot;,&quot;I&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff We/I</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_believe_believes__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;believe&quot;,&quot;believes&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff believe / believes</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_designate_designates__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;designate&quot;,&quot;designates&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff designate / designates</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_expect_expects__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;expect&quot;,&quot;expects&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff expect / expects</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_his_her_their__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(
+				(Number_of_Plaintiffs__c &gt; 1), &quot;their&quot;,
+					IF(
+		    ISPICKVAL(Plaintiff_Gender__c,&quot;Male&quot;),&quot;his&quot;,
+				    IF(
+								 ISPICKVAL(Plaintiff_Gender__c,&quot;Female&quot;),&quot;her&quot;,
+												NULL)))</formula>
+        <label>Plaintiff his/her/their</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiff_s_Plaintiffs_Posession__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Number_of_Plaintiffs__c &gt; 1,&quot;Plaintiffs&apos;&quot;,&quot;Plaintiff&apos;s&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Plaintiff&apos;s/Plaintiffs&apos; Posession</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Plaintiffs_Caption_Block__c</fullName>
+        <externalId>false</externalId>
+        <label>Plaintiffs Caption Block</label>
+        <length>500</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Plaintiffs_Caption__c</fullName>
+        <externalId>false</externalId>
+        <label>Plaintiffs Caption</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Merge Assistant</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Merge Assistant</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Merge Assistant</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
