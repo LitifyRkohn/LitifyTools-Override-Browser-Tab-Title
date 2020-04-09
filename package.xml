@@ -6,9 +6,6 @@
         <name>CustomField</name>
     </types>
     <types>
-        <members>Litify Attorney</members>
-        <members>Litify Partner</members>
-        <members>Litify Power User</members>
         <members>Litify Standard User</members>
         <name>Profile</name>
     </types>
