@@ -59,7 +59,7 @@
         <members>Merge_Assistant__c.Plaintiff_his_her_their__c</members>
         <members>Merge_Assistant__c.Plaintiff_s_Plaintiffs_Posession__c</members>
         <members>Merge_Assistant__c.Plaintiffs_Caption_Block__c</members>
-        <members>v.Plaintiffs_Caption__c</members>
+        <members>Merge_Assistant__c.Plaintiffs_Caption__c</members>
         <name>CustomField</name>
     </types>
     <types>
